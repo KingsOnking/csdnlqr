@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijdenglu"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_width="750px"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:layout_marginLeft="23px"
+            android:id="@+id/registerbacktrack"
+            android:layout_width="@dimen/return_width"
+            android:layout_height="@dimen/return_height"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:background="@color/transparency"
+            />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/home_tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zhuce_height"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="#1c1c1c"
+            android:textSize="30px" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/zhucebeijing_left"
+        android:layout_marginRight="@dimen/zhucebeijing_lift"
+        android:background="@drawable/map_bottom1"
+        >
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:digits="0123456789"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_width="@dimen/Edtext_width_zhuce"
+                android:layout_height="@dimen/Edtext_heigh_zhuce"
+                android:background="@null"
+                android:hint="请输入手机号码"
+                android:textSize="@dimen/Edtext_size_zhuce"
+                android:layout_marginLeft="@dimen/edtext_left"
+                android:id="@+id/phone" />
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:background="@drawable/line"
+                />
+            <TextView
+                android:id="@+id/gain_code"
+                android:layout_width="@dimen/btn_forCheckNumber"
+                android:layout_height="@dimen/Edtext_heigh_zhuce"
+                android:clickable="true"
+                android:textColor="@color/forCheckNumber"
+                android:textSize="26px"
+                android:gravity="center"
+                android:hint="@string/btn_forCheckNumber"
+                />
+        </LinearLayout>
+        <include layout="@layout/register_et_view" />
+        <EditText
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="@dimen/Edtext_width_zhuce"
+            android:layout_height="@dimen/Edtext_heigh_zhuce"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:textSize="@dimen/Edtext_size_zhuce"
+            android:layout_marginLeft="@dimen/edtext_left"
+            android:id="@+id/code" />
+        <include layout="@layout/register_et_view" />
+        <EditText
+
+            android:layout_width="@dimen/Edtext_width_zhuce"
+            android:layout_height="@dimen/Edtext_heigh_zhuce"
+            android:background="@null"
+            android:hint="请输入登录密码"
+            android:inputType="numberPassword"
+            android:textSize="@dimen/Edtext_size_zhuce"
+            android:layout_marginLeft="@dimen/edtext_left"
+            android:id="@+id/et_password" />
+        <include layout="@layout/register_et_view" />
+
+        <EditText
+            android:layout_width="@dimen/Edtext_width_zhuce"
+            android:layout_height="@dimen/Edtext_heigh_zhuce"
+            android:background="@null"
+            android:hint="请重新输入登录密码"
+            android:inputType="numberPassword"
+            android:textSize="@dimen/Edtext_size_zhuce"
+            android:layout_marginLeft="@dimen/edtext_left"
+            android:id="@+id/et_password_second" />
+        <include layout="@layout/register_et_view" />
+
+        <EditText
+            android:layout_width="@dimen/Edtext_width_zhuce"
+            android:layout_height="@dimen/Edtext_heigh_zhuce"
+            android:background="@null"
+            android:hint="请填写真实姓名"
+            android:textSize="@dimen/Edtext_size_zhuce"
+            android:layout_marginLeft="@dimen/edtext_left"
+            android:id="@+id/et_name" />
+        <include layout="@layout/register_et_view" />
+        <EditText
+            android:layout_width="@dimen/Edtext_width_zhuce"
+            android:layout_height="79px"
+            android:background="@null"
+            android:hint="请填写身份证号"
+            android:textSize="@dimen/Edtext_size_zhuce"
+            android:layout_marginLeft="@dimen/edtext_left"
+            android:id="@+id/et_ID" />
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/button_zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="添加资质证明"
+        android:textColor="#fff"
+        android:layout_margin="40px"
+        android:background="@drawable/map_bottom8"
+
+        />
+</LinearLayout>
+
+

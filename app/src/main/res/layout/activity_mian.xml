@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/beijdenglu"
+    tools:context="com.myrescue.ui.Activity.HomeActivity">
+<EditText
+    android:id="@+id/user_name"
+    android:layout_width="@dimen/debark_width"
+    android:layout_height="@dimen/debark_height"
+    android:hint="请输入账号"
+    android:textSize="@dimen/Edtext_size_zhuce"
+    android:gravity="center"
+    android:background="@drawable/shurukuang"
+    />
+    <EditText
+        android:id="@+id/password"
+        android:hint="请输入密码"
+        android:gravity="center"
+        android:textSize="@dimen/Edtext_size_zhuce"
+        android:password="true"
+        android:layout_width="@dimen/debark_width"
+        android:layout_height="@dimen/debark_height"
+        android:background="@drawable/shurukuang"
+        />
+    <Button
+        android:id="@+id/debark"
+        android:onClick="onClick"
+        android:hint="立即登陆"
+        android:textColor="#fff"
+        android:layout_width="@dimen/debark_width"
+        android:layout_height="@dimen/debark_height"
+        android:background="@drawable/dengludianji"
+        android:elevation="0dp" />
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码？"
+        />
+    <TextView
+        android:clickable="true"
+        android:onClick="onClick"
+        android:id="@+id/register"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有账号？立即注册"
+        />
+</LinearLayout>

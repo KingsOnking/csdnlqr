@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aptitudebeij"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+
+        >
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/fanhui"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+           android:background="@color/transparency"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:layout_marginRight="40dp"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="资质证明"
+            android:textColor="#1c1c1c"
+            android:textSize="20dp"
+            android:id="@+id/textView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@drawable/aptitude_baoguobeij"
+        >
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+    <ImageButton
+        android:id="@+id/add_certification0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placeholder"
+        android:background="@color/transparency"
+        />
+        <ImageButton
+            android:id="@+id/add_certification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/placeholder"
+            android:background="@color/transparency"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/add_certification2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder"
+                android:background="@color/transparency"
+                />
+
+            <ImageButton
+            android:id="@+id/add_certification1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/placeholder"
+            android:background="@color/transparency"
+            />
+        </LinearLayout>
+</LinearLayout>
+<TextView
+    android:layout_gravity="right"
+    android:layout_marginRight="@dimen/y10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="一个工作日审核成功"
+    />
+    <Button
+        android:id="@+id/commit_button"
+        android:background="@drawable/audit_button"
+        android:text="提交审核"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+</LinearLayout>

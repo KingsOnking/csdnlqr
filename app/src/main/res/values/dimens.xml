@@ -1,0 +1,162 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="zhuce_height">30px</dimen>
+    <dimen name="zhucebeijing_lift">40px</dimen>
+    <dimen name="edtext_left">60px</dimen>
+    <dimen name="Edtext_width_zhuce">340px</dimen>
+    <dimen name="Edtext_heigh_zhuce">70px</dimen>
+    <dimen name="Edtext_size_zhuce">26px</dimen>
+    <dimen name="debark_width">500px</dimen>
+    <dimen name="debark_height">120px</dimen>
+    <dimen name="btn_forCheckNumber">251px</dimen>
+    <dimen name="horizontalline_height">3px</dimen>
+    <dimen name="view_line_height">2px</dimen>
+    <dimen name="zhucebeijing_left">40px</dimen>
+    <dimen name="underline">613px</dimen>
+    <dimen name="top_margin">39px</dimen>
+    <dimen name="titel_width">710px</dimen>
+    <dimen name="titel_height">40px</dimen>
+    <dimen name="titel_left">30px</dimen>
+    <dimen name="return_height">40px</dimen>
+    <dimen name="return_width">20px</dimen>
+    <dimen name="map_top">39px</dimen>
+    <dimen name="placeholder_top">25px</dimen>
+    <dimen name="beijing_left">45px</dimen>
+    <dimen name="zhl_lll">10px</dimen>
+    <dimen name="top_10">15px</dimen>
+    <dimen name="x260">260px</dimen>
+
+    <dimen name="y20">20px</dimen>
+
+    <dimen name="y26">25px</dimen>
+
+    <dimen name="y10">18px</dimen>
+
+    <dimen name="y6">6px</dimen>
+
+    <dimen name="y70">-70px</dimen>
+
+    <dimen name="y40">40px</dimen>
+
+    <dimen name="y30">30px</dimen>
+
+    <dimen name="y74">74px</dimen>
+
+    <dimen name="x30">30px</dimen>
+
+    <dimen name="y88">88px</dimen>
+
+    <dimen name="y670">670px</dimen>
+
+    <dimen name="y84">84px</dimen>
+
+    <dimen name="y384">384px</dimen>
+
+    <dimen name="y685">685px</dimen>
+
+    <dimen name="y119">119px</dimen>
+
+    <dimen name="y301">301px</dimen>
+
+    <dimen name="y60">60px</dimen>
+
+    <dimen name="y80">80px</dimen>
+
+    <dimen name="y201">200px</dimen>
+
+    <dimen name="y211">211px</dimen>
+
+    <dimen name="y221">221px</dimen>
+
+    <dimen name="y71">71px</dimen>
+
+    <dimen name="y140">140px</dimen>
+
+    <dimen name="y150">150px</dimen>
+
+    <dimen name="y250">250px</dimen>
+
+    <dimen name="y260">260px</dimen>
+
+    <dimen name="y270">270px</dimen>
+
+    <dimen name="y180">180px</dimen>
+
+    <dimen name="y160">160px</dimen>
+
+    <dimen name="y170">170px</dimen>
+
+    <dimen name="y165">165px</dimen>
+
+    <dimen name="y90">90px</dimen>
+
+    <dimen name="y100">100px</dimen>
+
+    <dimen name="y190">190px</dimen>
+
+    <dimen name="y50">50px</dimen>
+
+    <dimen name="y130">130px</dimen>
+
+    <dimen name="y55">55px</dimen>
+
+    <dimen name="y57">57px</dimen>
+
+    <dimen name="y120">120px</dimen>
+
+    <dimen name="y65">65px</dimen>
+
+    <dimen name="y66">66px</dimen>
+
+    <dimen name="y67">67px</dimen>
+
+    <dimen name="y68">68px</dimen>
+
+    <dimen name="y230">230px</dimen>
+
+    <dimen name="x270">270px</dimen>
+
+    <dimen name="x280">280px</dimen>
+
+    <dimen name="x285">285px</dimen>
+
+    <dimen name="x290">290px</dimen>
+
+    <dimen name="x70">70px</dimen>
+
+    <dimen name="y99">99px</dimen>
+
+    <dimen name="y98">98px</dimen>
+
+    <dimen name="y97">97px</dimen>
+
+    <dimen name="y110">110px</dimen>
+
+    <dimen name="y105">105px</dimen>
+
+    <dimen name="y106">106px</dimen>
+
+    <dimen name="y25">25px</dimen>
+
+    <dimen name="y82">82px</dimen>
+
+    <dimen name="y35">35px</dimen>
+
+    <dimen name="y34">34px</dimen>
+
+    <dimen name="y32">32px</dimen>
+
+    <dimen name="y78">78px</dimen>
+
+    <dimen name="y760">760px</dimen>
+
+    <dimen name="y600">600px</dimen>
+    <dimen name="h70">-70px</dimen>
+    <dimen name="h73">-73px</dimen>
+    <dimen name="h75">-75px</dimen>
+    <dimen name="h90">-90px</dimen>
+    <dimen name="h85">-85px</dimen>
+    >
+
+</resources>
